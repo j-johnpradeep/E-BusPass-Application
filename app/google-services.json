@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "596105693837",
+    "project_id": "transport-9e223",
+    "storage_bucket": "transport-9e223.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596105693837:android:42f78cf927719649bb70c4",
+        "android_client_info": {
+          "package_name": "com.example.pdbus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596105693837-on564gs5cfjhn44hpd0qdvp4samt7187.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_kdddmL-fSdLZXDwtxFPzMSpCp_dMC2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596105693837-on564gs5cfjhn44hpd0qdvp4samt7187.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

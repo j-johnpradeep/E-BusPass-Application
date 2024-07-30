@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">pd bus</string>
+    <string name="admin">Admin</string>
+    <string-array name="dept">
+        <item>Information Technology</item>
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Computer Science And Engineering</item>
+        <item>Electronics and Communication Engineering</item>
+        <item>Electrical And Electronics Engineering</item>
+    </string-array>
+    <string name="terms"><a href="">Terms And Conditions</a></string>
+    <string-array name="year">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="place">
+        <item>Kovilpatti</item>
+        <item>Tuticorin</item>
+        <item>Tirunelveli</item>
+        <!--        <item>KanyaKumari</item>-->
+        <!--        <item>Sankarankovil</item>-->
+    </string-array>
+    <string-array name="boarding">
+        <item>kvp6 Nadar School </item>
+        <item>kvp7 John Paun Stop </item>
+        <item>kvp8 Old Bus Stand </item>
+        <item>tny7 Vaikalpalam</item>
+    </string-array>
+
+    <string-array name="kovilpatti_places">
+        <item>kvp6 Nadar School </item>
+        <item>kvp7 John Paun Stop </item>
+        <item>kvp8 Old Bus Stand </item>
+    </string-array>
+    <string-array name="tirunelveli_places">
+        <item>tny7 Vaikalpalam</item>
+        <item>tny5 Vannarpettai</item>
+        <item>tny15 PalayamKottai</item>
+    </string-array>
+    <string-array name="tuticorin_places">
+        <item>Navy Pier</item>
+        <item>The Bean</item>
+        <item>Willis Tower</item>
+    </string-array>
+</resources>

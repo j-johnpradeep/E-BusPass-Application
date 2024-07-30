@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/login1"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="473dp"
+        android:layout_height="990dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/background_page" />
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="430dp"
+        android:background="@drawable/bus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/textadmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:shadowColor="#090808"
+        android:shadowDx="9.5"
+        android:shadowDy="9"
+        android:shadowRadius="2"
+        android:fontFamily="@font/delius_unicase_bold"
+        android:text="Welcome Back,
+Login Here"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+
+        android:background="@drawable/background_card"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/emaillog"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:padding="9dp"
+            android:inputType="textEmailAddress"
+            android:textColor="#716B6B"
+            android:textSize="19sp"
+            android:textColorHint="#716B6B"
+            android:hint="example@nec.edu.in"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/text_background"/>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/passlog"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:padding="9dp"
+            android:inputType="textPassword"
+            android:textColor="#716B6B"
+            android:textSize="19sp"
+            android:textColorHint="#716B6B"
+            android:hint="Password minimum 8 characters"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/text_background"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/loginlayout">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New User?"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="60dp"
+                android:textStyle="bold"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button3"
+                style="@android:style/Widget.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/background_button"
+                android:text="Sign Up"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button35"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_button"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

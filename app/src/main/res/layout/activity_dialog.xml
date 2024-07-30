@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialogbox"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutdialog"
+        android:background="@drawable/dialog_bkg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textdialog"
+            android:text="Your Verification Email Has Been Sent To Your Email"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center_horizontal"
+            app:layout_constraintTop_toTopOf="@id/layoutdialog"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textd"
+            android:text="Click Login After Verify"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="140dp"
+            android:padding="20dp"
+            android:gravity="center_horizontal"
+            app:layout_constraintTop_toTopOf="@id/layoutdialog"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/verlog"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="195dp"
+            android:background="@drawable/background_button"
+            android:padding="10dp"
+            android:text="Login Here"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/tick"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/layoutdialog"
+        app:layout_constraintTop_toBottomOf="@id/layoutdialog"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
